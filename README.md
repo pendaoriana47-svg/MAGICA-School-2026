@@ -1,5 +1,5 @@
 # Open Science in Practice for Coastal Ocean Data Analysis and Visualization
-Co-organized by [MAGICA]([CMCC](https://www.cmcc.it/), the [University of Bologna](https://www.unibo.it/en), and [EGI](https://www.egi.eu/).
+Co-organized by [MAGICA](https://magica-project.eu), [CMCC](https://www.cmcc.it/), the [University of Bologna](https://www.unibo.it/en), and [EGI](https://www.egi.eu/).
 ## Objectives
 In this intensive, week-long course, students learn cloud native approaches and tools for working with multidimensional Earth Science data on the cloud. Through a mix of lectures and practical labs, student learn how to:
 
@@ -25,9 +25,3 @@ This course uses the [Protocoast JupyterHub](https://protocoast.vm.fedcloud.eu/)
 
 
 ## Feedback
- [School Feedback Responses](./pangeo_class_survey_results.pdf)
- 
-From the feedback, Holoviz and Virtualizarr/Icechunk were the tools that excited students the most, and I was very happy with the response to this question:
-
-<img width="1165" height="498" alt="image" src="https://github.com/user-attachments/assets/e3438987-3559-4fa3-9173-31c8dc55d2f9" />
-
