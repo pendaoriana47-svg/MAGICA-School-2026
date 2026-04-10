@@ -21,6 +21,7 @@ This course uses the [Protocoast JupyterHub](https://protocoast.vm.fedcloud.eu/)
 ## Schedule
 <img width="1174" height="692" alt="image" src="https://github.com/user-attachments/assets/063b6f24-ce89-4707-b052-506dd0e2cc06" />
 <img width="1162" height="786" alt="image" src="https://github.com/user-attachments/assets/633dc740-e396-40a4-8ca8-3ecf762af6e9" />
+<img width="1187" height="472" alt="image" src="https://github.com/user-attachments/assets/af517fc2-b362-4101-8139-221234171e12" />
 
 
 
