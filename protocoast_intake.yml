@@ -17,14 +17,14 @@ sources:
       storage_options:
         target_options:
           anon: False
-          endpoint_url: 'https://pangeo-eosc-minioapi.vm.fedcloud.eu'
-        fo: s3://rsignell4-protocoast/testing/shyfem_taranto_combined.json
+          endpoint_url: 'https://rustfs.vm.fedcloud.eu'
+        fo: s3://protocoast-data/testing/shyfem_taranto_combined.json
         lazy: False
         asynchronous: True
         remote_options:
           anon: False
           asynchronous: True
-          endpoint_url: 'https://pangeo-eosc-minioapi.vm.fedcloud.eu'
+          endpoint_url: 'https://rustfs.vm.fedcloud.eu'
         remote_protocol: 's3'
   Civitavecchia-SHYFEM:
     driver: intake_xarray.xzarr.ZarrSource
@@ -35,14 +35,14 @@ sources:
       storage_options:
         target_options:
           anon: False
-          endpoint_url: 'https://pangeo-eosc-minioapi.vm.fedcloud.eu'
-        fo: s3://rsignell4-protocoast/testing/civitavecchia_shyfem_combined.json
+          endpoint_url: 'https://rustfs.vm.fedcloud.eu'
+        fo: s3://protocoast-data/testing/civitavecchia_shyfem_combined.json
         lazy: False
         asynchronous: True
         remote_options:
           anon: False
           asynchronous: True
-          endpoint_url: 'https://pangeo-eosc-minioapi.vm.fedcloud.eu'
+          endpoint_url: 'https://rustfs.vm.fedcloud.eu'
         remote_protocol: 's3'
   Civitavecchia-SHYFEM-FMRC:
     driver: intake_xarray.xzarr.ZarrSource
@@ -53,14 +53,14 @@ sources:
       storage_options:
         target_options:
           anon: False
-          endpoint_url: 'https://pangeo-eosc-minioapi.vm.fedcloud.eu'
-        fo: s3://rsignell4-protocoast/full_dataset/shyfem/civitavec/civitavec_fmrc.parq
+          endpoint_url: 'https://rustfs.vm.fedcloud.eu'
+        fo: s3://protocoast-data/full_dataset/shyfem/civitavec/civitavec_fmrc.parq
         lazy: True
         asynchronous: True
         remote_options:
           anon: False
           asynchronous: True
-          endpoint_url: 'https://pangeo-eosc-minioapi.vm.fedcloud.eu'
+          endpoint_url: 'https://rustfs.vm.fedcloud.eu'
         remote_protocol: 's3'
   Taranto-SHYFEM-FMRC:
     driver: intake_xarray.xzarr.ZarrSource
@@ -71,24 +71,24 @@ sources:
       storage_options:
         target_options:
           anon: False
-          endpoint_url: 'https://pangeo-eosc-minioapi.vm.fedcloud.eu'
-        fo: s3://rsignell4-protocoast/full_dataset/shyfem/taranto/taranto_fmrc.parq
+          endpoint_url: 'https://rustfs.vm.fedcloud.eu'
+        fo: s3://protocoast-data/full_dataset/shyfem/taranto/taranto_fmrc.parq
         lazy: True
         asynchronous: True
         remote_options:
           anon: False
           asynchronous: True
-          endpoint_url: 'https://pangeo-eosc-minioapi.vm.fedcloud.eu'
+          endpoint_url: 'https://rustfs.vm.fedcloud.eu'
         remote_protocol: 's3'
   Taranto-OBS-WaterLevelHistory:
     driver: netcdf
     args:
       # The S3 path to your NetCDF file
-      urlpath: "s3://rsignell4-protocoast/data/IR_TS_TG_Taranto1TG.nc"
+      urlpath: "s3://protocoast-data/data/IR_TS_TG_Taranto1TG.nc"
       storage_options:
       # These options are passed to s3fs.S3FileSystem
         anon: False
         client_kwargs:
-          endpoint_url: 'https://pangeo-eosc-minioapi.vm.fedcloud.eu'
+          endpoint_url: 'https://rustfs.vm.fedcloud.eu'
       xarray_kwargs:
         engine: h5netcdf
