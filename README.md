@@ -20,8 +20,9 @@ This course uses the [Protocoast JupyterHub](https://protocoast.vm.fedcloud.eu/)
 
 
 ## Schedule
-<img width="1206" height="696" alt="image" src="https://github.com/user-attachments/assets/f687ecbe-6973-4cb3-8d4b-a1661e96fad2" />
-<img width="1184" height="736" alt="image" src="https://github.com/user-attachments/assets/b68e8b0b-0e1a-46bb-8a0e-bb63cb625c93" />
+<img width="1121" height="678" alt="image" src="https://github.com/user-attachments/assets/929e5b8c-4b43-4c54-a5e9-dcb1c1754f0f" />
+<img width="1125" height="731" alt="image" src="https://github.com/user-attachments/assets/78893307-abc5-47f4-a734-4fd3afe8f058" />
+
 
 
 
