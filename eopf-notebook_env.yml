@@ -1,0 +1,13 @@
+name: eopf-notebook
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - geoviews
+  - hvplot
+  - datashader
+  - xarray-eopf[version='>=0.2.5']
+  - pystac-client
+  - pyproj
+  - ipykernel
+prefix: /home/rsignell/miniforge3/envs/eopf-notebook
