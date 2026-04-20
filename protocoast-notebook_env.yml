@@ -124,7 +124,7 @@ dependencies:
   - zarr>=3
   - pip 
   - pip:
-    - git+https://github.com/dcherian/rolodex@main
-    - git+https://github.com/OpenScienceComputing/hvplot@main
+    - git+https://github.com/dcherian/rolodex@527bd420b21e9efd88cb1601e58276d24312d040
+    - git+https://github.com/OpenScienceComputing/hvplot@42f595faafc89b84ce51522b953db193b8e70ddd
 platforms:
   - linux-64
